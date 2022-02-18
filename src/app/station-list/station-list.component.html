@@ -1,0 +1,14 @@
+<p>station-list works!</p>
+<ul class="list-group">
+    <li
+      class="list-group-item hand hoverable"
+      *ngFor="let station of stations"
+      (click)="getStation(station)"
+    >
+    {{station.name}}
+    Munghana Lonene
+    Phalaphala
+    Capricorn FM
+    Jacaranda FM
+    </li>
+  </ul>
