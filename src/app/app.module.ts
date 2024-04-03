@@ -9,6 +9,8 @@ import { StationListComponent } from './station-list/station-list.component';
 import { RadioComponent } from './radio/radio.component';
 import { AngMusicPlayerModule } from 'ang-music-player';
 import { CommonModule } from '@angular/common';
+import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CommonModule } from '@angular/common';
     LandingComponent,
     StationsComponent,
     StationListComponent,
-    RadioComponent
+    RadioComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

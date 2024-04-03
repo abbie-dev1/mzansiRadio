@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  countries: any;
+  stations: any;
   selectedStation: any;
   // name: string;
   borders = [];

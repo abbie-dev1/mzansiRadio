@@ -1,14 +1,16 @@
-<p>station-list works!</p>
-<ul class="list-group">
-    <li
-      class="list-group-item hand hoverable"
-      *ngFor="let station of stations"
-      (click)="getStation(station)"
-    >
-    {{station.name}}
-    Munghana Lonene
-    Phalaphala
-    Capricorn FM
-    Jacaranda FM
-    </li>
-  </ul>
+<div  class="card">
+  <img src="" class="card-img-top imageSize" alt="...">
+  <div class="card-body">
+    <h1 class="card-title wrappTitle">stationName</h1>
+     <!-- <p class="card-text" style="font-size: small; font-weight: bold;">{{product?.color}}</p>
+    <h5 class="card-title font-bold price" style="color: #689498;">{{product?.price | currency : 'ZAR' : 'R'}}</h5>
+    
+    <p class="card-text wrappDetails">{{product?.description}}</p>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end"> -->
+      <!-- <a class="badge rounded-pill bg-secondary" type="button" [routerLink]="['products/', product._id]">View more</a> -->
+      <span class="badge rounded-pill bg-secondary" type="button" routerLink="">View more</span>
+
+      <!-- <span  (click)="addToCart()" class="badge rounded-pill" style="background-color: #689498;" type="button">Add to cart</span> -->
+    </div>
+  </div>
+
