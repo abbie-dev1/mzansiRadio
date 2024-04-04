@@ -1,14 +1,11 @@
 .navbar
 {
     background-color: #336660;
+    // height: 150px; 
 }
 
-img
+.img
 {
-    height: 30px;
-    width: 100%;
-    float: left;
-    margin-right: 7px;
-    // position: relative;
-    cursor: pointer;
+    width: fit-content;
+    justify-content: center;
 }
