@@ -1,4 +1,47 @@
 .cards
 {
+    margin-bottom: 20px;
+    border-radius: 15px;
     margin-top:20px;
+    background-color: #c0d1ca;
+}
+
+.card
+{
+    margin-top: 10px;
+    background-color: #479475;
+    border-radius: 10px;
+}
+
+.card-body
+{
+    place-content: center;
+    margin:auto;
+}
+
+.card-title
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.station-name
+{
+    position: center;
+}
+
+.play-btn
+{
+    position: center;
+}
+
+button
+{
+    background-color: whitesmoke;
+    font-size: large;
+    color: #479475;
+    border-radius: 30px;
 }
